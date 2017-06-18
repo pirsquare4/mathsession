@@ -5,14 +5,14 @@ public class Sum3 {
 
 
 	public static void main(String[] args) {
-		boolean easySum = Sum3.calculate(easyNumbers);
-		System.out.println("easyNumbers sum: " + easySum);
+		boolean easyResult = Sum3.calculate(easyNumbers);
+		System.out.println("easyNumbers sum: " + easyResult);
 
-		boolean hardSum = Sum3.calculate(hardNumbers);
-		System.out.println("hardNumbers sum: " + hardSum);
+		boolean hardResult = Sum3.calculate(hardNumbers);
+		System.out.println("hardNumbers sum: " + hardResult);
 
-		boolean controlSum = Sum3.calculate(control);
-		System.out.println("controlNumbers sum: " + controlSum);
+		boolean controlResult = Sum3.calculate(control);
+		System.out.println("controlNumbers sum: " + controlResult);
 
 
   }
